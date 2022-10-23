@@ -1,10 +1,11 @@
-h1 = 19
-m1 = 20
-s1 = 32
-
-h2 = 20
-m2 = 34
-s2 = 12
+puts "1個目の時間を入力してください"
+h1 = gets.to_i
+m1 = gets.to_i
+s1 = gets.to_i
+puts "2個目の時間を入力してください"
+h2 = gets.to_i
+m2 = gets.to_i
+s2 = gets.to_i
 
 time1 = h1 * 3600 + m1 * 60 + s1
 time2 = h2 * 3600 + m2 * 60 + s2

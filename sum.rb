@@ -1,13 +1,14 @@
 m = 128
 n = 72
 
-h = m / n
-d = m % n
 
-while 0 < d do
-if d == 0
-  puts "最大公約数は" + h.to_s
-  break
-else n % d = d
+while 0 < n do
+  d = m % n
+  if d == 0
+    puts "最大公約数は" + n.to_s
+    break
+  else
+    m = n
+    n = d
 end
 end
