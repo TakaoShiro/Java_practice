@@ -1,10 +1,8 @@
 public class Main {
   public static void main(String[] args) {
-    int a;
-    int b;
-    a = 20;
-    b = a + 5;
-    System.out.println(a);
-    System.out.println(b);
+    int a = 10;
+    int b = 10;
+    System.out.println(++a + 50);
+    System.out.println(b++ + 50);
   }
 }
